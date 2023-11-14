@@ -8,3 +8,5 @@ RewriteEngine on
 ### RewriteRule <Index-alias> index.html--> ###
 RewriteRule Log-In index.php
 RewriteRule Main-Page chose.php
+RewriteRule calendar-notes calendar
+RewriteRule Main-Page chose.php
