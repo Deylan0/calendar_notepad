@@ -7,10 +7,10 @@
     <link rel="stylesheet" href="style.css" type="text/css">
 </head>
 <body>
-    <header><b>Chose what do you want to note.<br/>Calendar notes or standard notes</b></header>
+    <header><b>Chose where do you want to note.<br/>Calendar notes or standard notes</b></header>
     <main>
-        <div id="notes"></div>
-        <div id="calendar"></div>
+        <a href="Normal-notes"><div id="notes"></div></a>
+         <a href="Calendar-notes"><div id="calendar"></div></a>
     </main>
 </body>
 </html>
