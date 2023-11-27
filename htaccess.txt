@@ -1,0 +1,12 @@
+### PROTECT FILES ###
+<FilesMatch "\.(htaccess|htpasswd|ini|fla|psd|log|sh)$">
+Order Allow,Deny
+Deny from all
+</FilesMatch>
+
+RewriteEngine on
+### RewriteRule <Index-alias> index.html--> ###
+RewriteRule Log-In index.php
+RewriteRule Main-Page chose.php
+RewriteRule calendar-notes calendar
+RewriteRule Main-Page chose.php
