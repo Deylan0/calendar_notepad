@@ -6,7 +6,10 @@
     $password = $_POST['password'];
 
     $sql = "SELECT * FROM users WHERE email='$email' AND passwordd='$password'";
-    $result = @$conn->query($sql);
+    $result = $conn->query($sql);
+    if (!$result){
+        die("Query failed:" . $conn->$error)
+    }
 
     if($result->num_rows > 0) {
 
